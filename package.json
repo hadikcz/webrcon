@@ -9,7 +9,7 @@
     "server": "http-server",
     "start": "npm run server"
   },
-  "devDependencies": {
+  "dependencies": {
     "http-server": "^0.9.0"
   }
 }
