@@ -1,6 +1,6 @@
 <div ng-controller="ChatController" id="ChatController">
 
-    <div style="min-height: 300px" class="Output scrollable">
+    <div style="height: 400px" class="Output scrollable">
     	<div ng-repeat="line in Output" ng-class="line.Class">
     		<span style="min-width: 60px; display:inline-block;">{{(line.Time * 1000) | date:'shortTime'}}</span>
 			<span style="min-width: 130px; display:inline-block; text-align: right;"><a href="#/{{address}}/player/{{line.UserId}}/">{{line.Username}} :</a></span> 
